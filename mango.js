@@ -15,6 +15,8 @@ class Mango{
       this.image = loadImage("mango.png");
       World.add(world,this.body);
       
+     
+      
     }
     display(){
       var pos =this.body.position;

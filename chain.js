@@ -28,7 +28,7 @@ class Chain {
         var pointB = this.link.pointB;
         push()
         strokeWeight  (9);
-        line(pointA.x-70,pointA.y-50,pointB.x,pointB.y);
+        line(pointA.x,pointA.y,pointB.x,pointB.y);
         pop()   
       }
        
